@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sheridan Orr | Coming Soon</title>
+<meta name="description" content="Go-to-market strategist and fractional CMO for B2B SaaS. I map the market before I touch the marketing. New site coming soon.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='11' fill='%230B2545'/%3E%3Cpath d='M11 36 L19.5 28 L27 31 L33 19' fill='none' stroke='%23F2FBFB' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='11' cy='36' r='3' fill='%23F2FBFB'/%3E%3Ccircle cx='19.5' cy='28' r='3' fill='%23F2FBFB'/%3E%3Ccircle cx='27' cy='31' r='3' fill='%23F2FBFB'/%3E%3Cpath d='M35 6.5 Q35 14 42.5 14 Q35 14 35 21.5 Q35 14 27.5 14 Q35 14 35 6.5 Z' fill='%237FD6CF'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Newsreader:opsz,wght@6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0B2545;
+    --on-navy: #F2FBFB;
+    --on-navy-muted: #B9CBDD;
+    --aqua: #7FD6CF;
+    --coral: #F2705E;
+    --node-faint: #35557A;
+    --navy-rule: #24476F;
+    --display: "Manrope", "Helvetica Neue", Arial, sans-serif;
+    --text: "Newsreader", Georgia, "Times New Roman", serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--navy);
+    color: var(--on-navy);
+    font-family: var(--text);
+    font-size: 1.1875rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px);
+  }
+  .wrap { width: 100%; max-width: 1160px; margin: 0 auto; padding: 0 clamp(16px, 5vw, 56px); }
+
+  header { padding: 22px 0; }
+  .brand { display: inline-flex; align-items: center; gap: 12px; font-family: var(--display); font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; }
+  .brand svg { width: 46px; height: 46px; flex: none; }
+
+  main { flex: 1; display: flex; align-items: center; }
+  .hero { display: grid; grid-template-columns: repeat(12, 1fr); gap: 32px; align-items: center; padding: clamp(32px, 6vw, 72px) 0; }
+  .hero-main { grid-column: 1 / span 6; }
+  .hero-art { grid-column: 7 / span 6; }
+  .hero-art svg { width: 100%; height: auto; display: block; }
+
+  .eyebrow {
+    display: inline-block;
+    font-family: var(--display); font-weight: 700; font-size: 0.875rem;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--navy); background: var(--aqua);
+    padding: 6px 14px; border-radius: 999px; margin: 0 0 26px;
+  }
+  h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2.6rem, 5.6vw, 4.75rem); line-height: 1.02; letter-spacing: -0.04em; margin: 0 0 22px; text-wrap: balance; }
+  .sub { font-family: var(--display); font-weight: 600; font-size: clamp(1.25rem, 2.2vw, 1.75rem); line-height: 1.25; letter-spacing: -0.02em; margin: 0 0 22px; color: var(--aqua); }
+  .lede { font-size: 1.3rem; line-height: 1.6; max-width: 30em; margin: 0; color: var(--on-navy); }
+  .note { margin: 28px 0 0; padding-top: 20px; border-top: 1px solid var(--navy-rule); max-width: 30em; color: var(--on-navy-muted); font-size: 1.05rem; }
+
+  footer { padding: 24px 0 28px; color: var(--on-navy-muted); font-size: 1rem; border-top: 1px solid var(--navy-rule); }
+  footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+  @media (max-width: 900px) {
+    .hero { gap: 40px; }
+    .hero-main, .hero-art { grid-column: 1 / -1; }
+    .hero-art { max-width: 520px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <svg viewBox="0 0 48 48" aria-hidden="true">
+        <rect width="48" height="48" rx="11" fill="#163A6B"/>
+        <path d="M11 36 L19.5 28 L27 31 L33 19" fill="none" stroke="#F2FBFB" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="11" cy="36" r="3" fill="#F2FBFB"/>
+        <circle cx="19.5" cy="28" r="3" fill="#F2FBFB"/>
+        <circle cx="27" cy="31" r="3" fill="#F2FBFB"/>
+        <path d="M35 6.5 Q35 14 42.5 14 Q35 14 35 21.5 Q35 14 27.5 14 Q35 14 35 6.5 Z" fill="#7FD6CF" stroke="#7FD6CF" stroke-width="1.4" stroke-linejoin="round"/>
+      </svg>
+      <span>Sheridan Orr</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="hero">
+      <div class="hero-main">
+        <p class="eyebrow">New site coming soon</p>
+        <h1>I'm a different kind of CMO.</h1>
+        <p class="sub">Most marketers start with leads or brand. I start with strategy.</p>
+        <p class="lede">I map the market before I touch the marketing. As a go-to-market strategist and fractional CMO for B2B SaaS, I define who you sell to, how you win, what you say, and how your sales and marketing teams move together.</p>
+        <p class="note">The full site is on its way.</p>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 610 480" role="img" aria-label="Four forces on the left: buyer psychology and politics, competitor moves, AI and substitutes, and macro and regulation. They converge into a rising path of four decisions: who, how you win, what you say, and how you move. The path ends at a bright star labeled where you win.">
+          <text x="10" y="52" font-family="Manrope, Helvetica, Arial, sans-serif" font-weight="700" font-size="14" fill="#B9CBDD">What I read</text>
+          <g stroke="#35557A" stroke-width="1.5" fill="none">
+            <path d="M178 105 L240 395"/><path d="M178 185 L240 395"/><path d="M178 265 L240 395"/><path d="M178 345 L240 395"/>
+          </g>
+          <g fill="#B9CBDD"><circle cx="178" cy="105" r="6"/><circle cx="178" cy="185" r="6"/><circle cx="178" cy="265" r="6"/><circle cx="178" cy="345" r="6"/></g>
+          <g font-family="Manrope, Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#F2FBFB" text-anchor="end">
+            <text x="164" y="100">Buyer psychology</text><text x="164" y="118">and politics</text>
+            <text x="164" y="180">Competitor</text><text x="164" y="198">moves</text>
+            <text x="164" y="260">AI and</text><text x="164" y="278">substitutes</text>
+            <text x="164" y="340">Macro and</text><text x="164" y="358">regulation</text>
+          </g>
+          <path d="M240 395 L315 290 L390 205 L462 132 L522 78" fill="none" stroke="#7FD6CF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          <g fill="#F2FBFB"><circle cx="240" cy="395" r="9"/><circle cx="315" cy="290" r="9"/><circle cx="390" cy="205" r="9"/><circle cx="462" cy="132" r="9"/></g>
+          <g font-family="Manrope, Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#F2FBFB">
+            <text x="256" y="424">1  Who</text>
+            <text x="331" y="316">2  How you win</text>
+            <text x="406" y="231">3  What you say</text>
+            <text x="478" y="158">4  How you move</text>
+            <text x="318" y="452" font-size="14" fill="#B9CBDD">What I decide</text>
+          </g>
+          <circle cx="545" cy="58" r="44" fill="#7FD6CF" opacity="0.22"/>
+          <path d="M545 26 Q545 58 577 58 Q545 58 545 90 Q545 58 513 58 Q545 58 545 26 Z" fill="#7FD6CF" stroke="#7FD6CF" stroke-width="3" stroke-linejoin="round"/>
+          <text x="545" y="18" font-family="Manrope, Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#F2FBFB" text-anchor="middle">Where you win</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Sheridan Orr</span>
+    <span>Based in the Raleigh-Durham area. Working with teams across the US.</span>
+  </div>
+</footer>
+
+</body>
+</html>
