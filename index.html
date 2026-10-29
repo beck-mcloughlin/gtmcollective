@@ -2,139 +2,218 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Sheridan Orr | Coming Soon</title>
-<meta name="description" content="Go-to-market strategist and fractional CMO for B2B SaaS. I map the market before I touch the marketing. New site coming soon.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='11' fill='%230B2545'/%3E%3Cpath d='M11 36 L19.5 28 L27 31 L33 19' fill='none' stroke='%23F2FBFB' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='11' cy='36' r='3' fill='%23F2FBFB'/%3E%3Ccircle cx='19.5' cy='28' r='3' fill='%23F2FBFB'/%3E%3Ccircle cx='27' cy='31' r='3' fill='%23F2FBFB'/%3E%3Cpath d='M35 6.5 Q35 14 42.5 14 Q35 14 35 21.5 Q35 14 27.5 14 Q35 14 35 6.5 Z' fill='%237FD6CF'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Newsreader:opsz,wght@6..72,400&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --navy: #0B2545;
-    --on-navy: #F2FBFB;
-    --on-navy-muted: #B9CBDD;
-    --aqua: #7FD6CF;
-    --coral: #F2705E;
-    --node-faint: #35557A;
-    --navy-rule: #24476F;
-    --display: "Manrope", "Helvetica Neue", Arial, sans-serif;
-    --text: "Newsreader", Georgia, "Times New Roman", serif;
-  }
-  *, *::before, *::after { box-sizing: border-box; }
-  html, body { height: 100%; }
-  body {
-    margin: 0;
-    background: var(--navy);
-    color: var(--on-navy);
-    font-family: var(--text);
-    font-size: 1.1875rem;
-    line-height: 1.65;
-    -webkit-font-smoothing: antialiased;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px);
-  }
-  .wrap { width: 100%; max-width: 1160px; margin: 0 auto; padding: 0 clamp(16px, 5vw, 56px); }
-
-  header { padding: 22px 0; }
-  .brand { display: inline-flex; align-items: center; gap: 12px; font-family: var(--display); font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; }
-  .brand svg { width: 46px; height: 46px; flex: none; }
-
-  main { flex: 1; display: flex; align-items: center; }
-  .hero { display: grid; grid-template-columns: repeat(12, 1fr); gap: 32px; align-items: center; padding: clamp(32px, 6vw, 72px) 0; }
-  .hero-main { grid-column: 1 / span 6; }
-  .hero-art { grid-column: 7 / span 6; }
-  .hero-art svg { width: 100%; height: auto; display: block; }
-
-  .eyebrow {
-    display: inline-block;
-    font-family: var(--display); font-weight: 700; font-size: 0.875rem;
-    letter-spacing: 0.08em; text-transform: uppercase;
-    color: var(--navy); background: var(--aqua);
-    padding: 6px 14px; border-radius: 999px; margin: 0 0 26px;
-  }
-  h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2.6rem, 5.6vw, 4.75rem); line-height: 1.02; letter-spacing: -0.04em; margin: 0 0 22px; text-wrap: balance; }
-  .sub { font-family: var(--display); font-weight: 600; font-size: clamp(1.25rem, 2.2vw, 1.75rem); line-height: 1.25; letter-spacing: -0.02em; margin: 0 0 22px; color: var(--aqua); }
-  .lede { font-size: 1.3rem; line-height: 1.6; max-width: 30em; margin: 0; color: var(--on-navy); }
-  .note { margin: 28px 0 0; padding-top: 20px; border-top: 1px solid var(--navy-rule); max-width: 30em; color: var(--on-navy-muted); font-size: 1.05rem; }
-
-  footer { padding: 24px 0 28px; color: var(--on-navy-muted); font-size: 1rem; border-top: 1px solid var(--navy-rule); }
-  footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-
-  @media (max-width: 900px) {
-    .hero { gap: 40px; }
-    .hero-main, .hero-art { grid-column: 1 / -1; }
-    .hero-art { max-width: 520px; }
-  }
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheridan Orr | Go-to-market strategy and fractional CMO</title>
+<meta name="description" content="Go-to-market strategy and fractional CMO leadership for B2B SaaS companies scaling faster than their marketing.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=DM+Sans:wght@400;500;700&family=Caveat+Brush&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-
-<header>
-  <div class="wrap">
-    <div class="brand">
-      <svg viewBox="0 0 48 48" aria-hidden="true">
-        <rect width="48" height="48" rx="11" fill="#163A6B"/>
-        <path d="M11 36 L19.5 28 L27 31 L33 19" fill="none" stroke="#F2FBFB" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="11" cy="36" r="3" fill="#F2FBFB"/>
-        <circle cx="19.5" cy="28" r="3" fill="#F2FBFB"/>
-        <circle cx="27" cy="31" r="3" fill="#F2FBFB"/>
-        <path d="M35 6.5 Q35 14 42.5 14 Q35 14 35 21.5 Q35 14 27.5 14 Q35 14 35 6.5 Z" fill="#7FD6CF" stroke="#7FD6CF" stroke-width="1.4" stroke-linejoin="round"/>
-      </svg>
-      <span>Sheridan Orr</span>
-    </div>
-  </div>
-</header>
+<header id="site-head"></header>
 
 <main>
-  <div class="wrap">
-    <div class="hero">
-      <div class="hero-main">
-        <p class="eyebrow">New site coming soon</p>
-        <h1>I'm a different kind of CMO.</h1>
-        <p class="sub">Most marketers start with leads or brand. I start with strategy.</p>
-        <p class="lede">I map the market before I touch the marketing. As a go-to-market strategist and fractional CMO for B2B SaaS, I define who you sell to, how you win, what you say, and how your sales and marketing teams move together.</p>
-        <p class="note">The full site is on its way.</p>
-      </div>
-      <div class="hero-art">
-        <svg viewBox="0 0 610 480" role="img" aria-label="Four forces on the left: buyer psychology and politics, competitor moves, AI and substitutes, and macro and regulation. They converge into a rising path of four decisions: who, how you win, what you say, and how you move. The path ends at a bright star labeled where you win.">
-          <text x="10" y="52" font-family="Manrope, Helvetica, Arial, sans-serif" font-weight="700" font-size="14" fill="#B9CBDD">What I read</text>
-          <g stroke="#35557A" stroke-width="1.5" fill="none">
-            <path d="M178 105 L240 395"/><path d="M178 185 L240 395"/><path d="M178 265 L240 395"/><path d="M178 345 L240 395"/>
-          </g>
-          <g fill="#B9CBDD"><circle cx="178" cy="105" r="6"/><circle cx="178" cy="185" r="6"/><circle cx="178" cy="265" r="6"/><circle cx="178" cy="345" r="6"/></g>
-          <g font-family="Manrope, Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#F2FBFB" text-anchor="end">
-            <text x="164" y="100">Buyer psychology</text><text x="164" y="118">and politics</text>
-            <text x="164" y="180">Competitor</text><text x="164" y="198">moves</text>
-            <text x="164" y="260">AI and</text><text x="164" y="278">substitutes</text>
-            <text x="164" y="340">Macro and</text><text x="164" y="358">regulation</text>
-          </g>
-          <path d="M240 395 L315 290 L390 205 L462 132 L522 78" fill="none" stroke="#7FD6CF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-          <g fill="#F2FBFB"><circle cx="240" cy="395" r="9"/><circle cx="315" cy="290" r="9"/><circle cx="390" cy="205" r="9"/><circle cx="462" cy="132" r="9"/></g>
-          <g font-family="Manrope, Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#F2FBFB">
-            <text x="256" y="424">1  Who</text>
-            <text x="331" y="316">2  How you win</text>
-            <text x="406" y="231">3  What you say</text>
-            <text x="478" y="158">4  How you move</text>
-            <text x="318" y="452" font-size="14" fill="#B9CBDD">What I decide</text>
-          </g>
-          <circle cx="545" cy="58" r="44" fill="#7FD6CF" opacity="0.22"/>
-          <path d="M545 26 Q545 58 577 58 Q545 58 545 90 Q545 58 513 58 Q545 58 545 26 Z" fill="#7FD6CF" stroke="#7FD6CF" stroke-width="3" stroke-linejoin="round"/>
-          <text x="545" y="18" font-family="Manrope, Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#F2FBFB" text-anchor="middle">Where you win</text>
-        </svg>
+<!-- HERO -->
+<div class="hero navy" data-glow>
+  <div class="stars" data-n="60"></div><div class="glow"></div>
+  <div class="wrap grid">
+    <div>
+      <div class="eyebrow">Go-to-market strategy &middot; Fractional CMO</div>
+      <h1 data-split>Win the market you're actually in.</h1>
+      <div class="script" data-ul>start with strategy</div>
+      <p class="lede">Your company is growing faster than your marketing. Before you spend another dollar on campaigns, get a clear read on your buyers, your competitors and the forces shaping both. Then turn it into a plan your sales team can run on Monday.</p>
+      <div class="btn-row">
+        <a class="btn" href="contact.html">Book a 30-minute call <span class="arr">&rarr;</span></a>
+        <a class="link" href="#approach">See how it works</a>
       </div>
     </div>
+    <div>
+      <svg class="map" viewBox="0 0 610 480" role="img" aria-label="Market forces converge into a rising path of four decisions: who you sell to, how you win, what you say and how you move. The path ends at a star labeled where you win.">
+        <text class="lbl cap" x="10" y="52" style="--t:.3s">The market</text>
+        <g>
+          <path class="force-line" d="M178 105 L240 395"/><path class="force-line" d="M178 185 L240 395"/><path class="force-line" d="M178 265 L240 395"/><path class="force-line" d="M178 345 L240 395"/>
+        </g>
+        <g fill="#B8CCE6"><circle class="node" cx="178" cy="105" r="6" style="--t:.4s;fill:#B8CCE6"/><circle class="node" cx="178" cy="185" r="6" style="--t:.5s;fill:#B8CCE6"/><circle class="node" cx="178" cy="265" r="6" style="--t:.6s;fill:#B8CCE6"/><circle class="node" cx="178" cy="345" r="6" style="--t:.7s;fill:#B8CCE6"/></g>
+        <g text-anchor="end">
+          <text class="lbl" x="164" y="100" style="--t:.45s">Buyer psychology</text><text class="lbl" x="164" y="118" style="--t:.45s">and politics</text>
+          <text class="lbl" x="164" y="180" style="--t:.55s">Competitor</text><text class="lbl" x="164" y="198" style="--t:.55s">moves</text>
+          <text class="lbl" x="164" y="260" style="--t:.65s">AI and</text><text class="lbl" x="164" y="278" style="--t:.65s">substitutes</text>
+          <text class="lbl" x="164" y="340" style="--t:.75s">Macro and</text><text class="lbl" x="164" y="358" style="--t:.75s">regulation</text>
+        </g>
+        <path class="path" d="M240 395 L315 290 L390 205 L462 132 L522 78"/>
+        <circle class="node" cx="240" cy="395" r="9" style="--t:1.1s"/><circle class="node" cx="315" cy="290" r="9" style="--t:1.5s"/><circle class="node" cx="390" cy="205" r="9" style="--t:1.9s"/><circle class="node" cx="462" cy="132" r="9" style="--t:2.3s"/>
+        <text class="lbl" x="256" y="424" style="--t:1.2s">1  Who you sell to</text>
+        <text class="lbl" x="331" y="316" style="--t:1.6s">2  How you win</text>
+        <text class="lbl" x="406" y="231" style="--t:2s">3  What you say</text>
+        <text class="lbl" x="478" y="158" style="--t:2.4s">4  How you move</text>
+        <text class="lbl cap" x="318" y="456" style="--t:2.5s">Your strategy</text>
+        <circle class="halo" cx="545" cy="58" r="40"/>
+        <path class="star" d="M545 24 Q545 58 579 58 Q545 58 545 92 Q545 58 511 58 Q545 58 545 24 Z"/>
+        <text class="lbl" x="545" y="12" text-anchor="middle" style="--t:2.9s">Where you win</text>
+      </svg>
+    </div>
   </div>
+</div>
+
+<!-- MOMENTS TICKER -->
+<div class="ticker">
+  <div class="wrap">
+    <span class="lbl">Teams usually call when</span>
+    <div class="rot" aria-live="polite">
+      <span>pipeline is soft and nobody agrees why.</span>
+      <span>the message changes depending on who you ask.</span>
+      <span>a raise or a sale is on the horizon.</span>
+      <span>buyers are building shortlists in AI assistants.</span>
+      <span>the first senior marketing hire is still a year away.</span>
+    </div>
+  </div>
+</div>
+
+<!-- SOUND FAMILIAR -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv"><div class="eyebrow">Sound familiar?</div><h2>Your marketing is busy. Your pipeline isn't moving.</h2></div>
+      <p class="rv" style="--d:.1s">Most B2B SaaS teams don't have a marketing problem. They have a market problem: campaigns built before anyone mapped who buys, why they buy and who else they're considering.</p>
+    </div>
+    <div class="cards four" data-stagger>
+      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M3 17l5-5 4 3 8-8"/><path d="M15 7h5v5"/></svg></div><h3>Growth has stalled</h3><p>Pipeline is soft, win rates are uneven and every team has a different theory why.</p></div>
+      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h16v10H8l-4 4z"/><path d="M8 9h8M8 12h5"/></svg></div><h3>The story keeps shifting</h3><p>Sales says one thing, the website says another, and buyers can't tell what makes you different.</p></div>
+      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v18M7 8h7a3 3 0 0 1 0 6H8"/></svg></div><h3>Investors are looking</h3><p>A raise or a sale is coming, and your market story needs to hold up under diligence.</p></div>
+      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4M11 8v6M8 11h6"/></svg></div><h3>AI changed the shortlist</h3><p>Buyers now ask AI assistants who to consider. You need to know whether your name comes up.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- APPROACH -->
+<section class="mist" id="approach">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv"><div class="eyebrow">The approach</div><h2>Most marketing starts in the middle.</h2></div>
+      <p class="rv" style="--d:.1s">Leads are where most teams begin. The real work starts earlier, with a map of your market. Toggle to see the difference.</p>
+    </div>
+    <div class="flow-ctl rv" role="group" aria-label="Compare approaches">
+      <button data-mode="us" class="on">Start with strategy</button>
+      <button data-mode="most">Where most teams start</button>
+    </div>
+    <ol class="flow rv">
+      <div class="bar"></div>
+      <li class="stage"><span class="flag">start here</span><i class="dot"></i><b>Market map</b><span>Players, forces and buyer motives</span></li>
+      <li class="stage"><i class="dot"></i><b>Ideal customer</b><span>Comes into focus</span></li>
+      <li class="stage"><i class="dot"></i><b>Message</b><span>Lands with buyers</span></li>
+      <li class="stage"><span class="flag">most start here</span><i class="dot"></i><b>Leads</b><span>The right ones come in</span></li>
+      <li class="stage"><i class="dot"></i><b>Pipeline</b><span>Moves</span></li>
+      <li class="stage"><i class="dot"></i><b>Revenue</b><span>Becomes repeatable</span></li>
+    </ol>
+    <p class="flow-note">Start with the market and every step after it gets sharper.</p>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section class="quote">
+  <div class="wrap">
+    <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4 Q24 24 44 24 Q24 24 24 44 Q24 24 4 24 Q24 24 24 4 Z" fill="#1CCBC0"/></svg>
+    <blockquote class="rv">You can't build great marketing without being a <span class="hl">student of markets.</span></blockquote>
+    <cite>Sheridan Orr</cite>
+  </div>
+</section>
+
+<!-- PROOF -->
+<section class="navy">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv"><div class="eyebrow">Track record</div><h2>Built for the moments that decide a company's value.</h2></div>
+      <p class="rv" style="--d:.1s">Marketing leadership in complex, regulated industries, selling to the full C-suite.</p>
+    </div>
+    <div class="stats">
+      <div class="stat rv"><div class="n"><span data-count="2">0</span><small>IPOs</small></div><p>Marketing leadership through two public offerings.</p></div>
+      <div class="stat rv" style="--d:.12s"><div class="n"><span data-count="3">0</span><small>exits over $500M</small></div><p>Each valued above half a billion dollars.</p></div>
+      <div class="stat rv" style="--d:.24s"><div class="n"><span data-count="90">0</span><small>% inbound</small></div><p>Share of revenue from inbound at Language IO, driven by this system.</p></div>
+    </div>
+    <div class="chips rv"><span class="chip">AI</span><span class="chip">Fintech</span><span class="chip">HR tech</span><span class="chip">Customer experience</span><span class="chip">Regulated industries</span><span class="chip">B2B SaaS</span></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv"><div class="eyebrow">Ways to work together</div><h2>Clear scope. Defined outcomes. No guesswork.</h2></div>
+      <p class="rv" style="--d:.1s">Every engagement has a fixed scope and a finished product you can hold. Most start with a sprint and grow into a longer partnership.</p>
+    </div>
+    <div class="rv">
+      <a class="svc" href="services.html#sprint"><span class="k">01</span><div><h3>Go-to-market strategy sprint</h3><span class="when">4 to 6 weeks &middot; Most popular</span></div><p>Know exactly who to sell to, how to win and what to say, with evidence behind every choice.</p><span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      <a class="svc" href="services.html#alignment"><span class="k">02</span><div><h3>Sales and marketing alignment</h3><span class="when">4 to 6 weeks</span></div><p>One story across both teams, plus the decks, battlecards and proof your reps will actually use.</p><span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      <a class="svc" href="services.html#fractional"><span class="k">03</span><div><h3>Fractional CMO</h3><span class="when">1 to 2 days a week</span></div><p>Senior go-to-market leadership for your team and your board, without the full-time hire.</p><span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      <a class="svc" href="services.html#exit"><span class="k">04</span><div><h3>Exit and transaction readiness</h3><span class="when">4 to 6 weeks</span></div><p>A market story and proof points that support your valuation when buyers and investors look closely.</p><span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- STORIES -->
+<section class="mist">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv"><div class="eyebrow">Customer stories</div><h2>What changes when strategy comes first.</h2></div>
+      <p class="rv" style="--d:.1s"><a class="link" href="stories.html">All customer stories &rarr;</a></p>
+    </div>
+    <a class="story rv" href="story-sample.html">
+      <div class="vis">
+        <svg viewBox="0 0 300 200" style="position:absolute;right:-20px;bottom:-10px;width:70%;opacity:.35" aria-hidden="true"><path d="M10 180 L80 120 L130 140 L200 60 L280 20" fill="none" stroke="#1CCBC0" stroke-width="4" stroke-linecap="round"/></svg>
+        <span class="tag">Series B &middot; Fintech</span>
+        <div><div class="big">[ X ]%</div><span>increase in qualified pipeline</span></div>
+      </div>
+      <div class="txt">
+        <h3>[Client name] found its real buyer, and its pipeline followed <span class="sample">Sample</span></h3>
+        <p style="margin-top:14px">A short summary of the challenge, what changed and the result. Replace this with a real client story once Sheridan has approval to share it.</p>
+        <span class="link">Read the story &rarr;</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv"><div class="eyebrow">Getting started</div><h2>Simple on purpose.</h2></div>
+      <p class="rv" style="--d:.1s">You should know exactly what you're buying before you buy it.</p>
+    </div>
+    <ol class="steps">
+      <li class="rv"><span class="line"></span><h3>Intro call</h3><p>Thirty minutes on where you are and what's at stake. If it's not the right fit, you'll hear that, along with a referral to someone who is.</p></li>
+      <li class="rv" style="--d:.15s"><span class="line"></span><h3>Scoped proposal</h3><p>Within two business days: a fixed scope, a clear price and the finished product you'll have in hand.</p></li>
+      <li class="rv" style="--d:.3s"><h3>Work begins</h3><p>Kickoff within two weeks of signing. Retainers include a 30-day out clause, so you're never locked in.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- INSIGHTS -->
+<section class="mist">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv"><div class="eyebrow">Insights</div><h2>Ideas for teams that want to win on strategy.</h2></div>
+      <p class="rv" style="--d:.1s"><a class="link" href="insights.html">All insights &rarr;</a></p>
+    </div>
+    <div class="cards three" data-stagger>
+      <a class="post" href="insight-market-before-marketing.html"><div class="art"><svg viewBox="0 0 320 200" aria-hidden="true"><rect width="320" height="200" fill="#0A2F6B"/><path d="M40 160 L110 110 L160 128 L230 60" fill="none" stroke="#F1FBFB" stroke-width="3"/><circle cx="40" cy="160" r="5" fill="#F1FBFB"/><circle cx="110" cy="110" r="5" fill="#F1FBFB"/><circle cx="160" cy="128" r="5" fill="#F1FBFB"/><path d="M262 22 Q262 46 286 46 Q262 46 262 70 Q262 46 238 46 Q262 46 262 22 Z" fill="#1CCBC0"/></svg></div><div class="body"><span class="tag">Strategy</span><h3>Map the market before you touch the marketing</h3><p>Why the best campaigns start with a study of buyers, competitors and the forces around them.</p><span class="meta">6 min read</span></div></a>
+      <a class="post" href="insights.html"><div class="art"><svg viewBox="0 0 320 200" aria-hidden="true"><rect width="320" height="200" fill="#14407F"/><g fill="none" stroke="#1CCBC0" stroke-width="3"><circle cx="160" cy="100" r="26"/><circle cx="160" cy="100" r="54" opacity=".5"/><circle cx="160" cy="100" r="82" opacity=".25"/></g><circle cx="160" cy="100" r="8" fill="#F1FBFB"/></svg></div><div class="body"><span class="tag">AI search</span><h3>Is your company on the AI shortlist?</h3><p>Buyers ask assistants who to consider before they ever visit your site. Here's how to find out where you stand.</p><span class="meta">Coming soon</span></div></a>
+      <a class="post" href="insights.html"><div class="art"><svg viewBox="0 0 320 200" aria-hidden="true"><rect width="320" height="200" fill="#0A2F6B"/><g fill="#14407F"><rect x="70" y="110" width="34" height="60" rx="4"/><rect x="124" y="84" width="34" height="86" rx="4"/><rect x="178" y="58" width="34" height="112" rx="4"/></g><rect x="232" y="30" width="34" height="140" rx="4" fill="#1CCBC0"/></svg></div><div class="body"><span class="tag">Exits</span><h3>What investors read in your marketing</h3><p>Your positioning is evidence in diligence. Make sure it says what you need it to say.</p><span class="meta">Coming soon</span></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="navy cta">
+  <div class="orbit"></div><div class="orbit o2"></div>
+  <div class="wrap">
+    <h2 class="rv">Ready to see where you win?</h2>
+    <p class="rv" style="--d:.1s">Send a few lines about your company and the decision in front of you. You'll get a personal reply, usually within a day.</p>
+    <div class="rv" style="--d:.2s"><a class="btn" href="contact.html">Book a 30-minute call <span class="arr">&rarr;</span></a></div>
+  </div>
+</section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <span>&copy; 2026 Sheridan Orr</span>
-    <span>Based in the Raleigh-Durham area. Working with teams across the US.</span>
-  </div>
-</footer>
-
+<footer id="site-foot"></footer>
+<script src="assets/site.js"></script>
 </body>
 </html>

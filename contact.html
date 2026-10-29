@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a call | Sheridan Orr</title>
+<meta name="description" content="Book a 30-minute intro call with Sheridan Orr.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=DM+Sans:wght@400;500;700&family=Caveat+Brush&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header id="site-head"></header>
+<main>
+
+<div class="phero navy hero" data-glow>
+  <div class="stars" data-n="40"></div><div class="glow"></div>
+  <div class="wrap">
+    <div class="eyebrow">Book a call</div>
+    <h1 data-split>Tell us where you're headed.</h1>
+    <div class="script" data-ul>no deck required</div>
+    <p class="lede">Send a few lines about your company and the decision in front of you. Sheridan replies personally, usually within a day.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap about-grid" style="align-items:start">
+    <div class="rv">
+      <form class="form" novalidate>
+        <div class="row">
+          <label>Your name<input name="Name" autocomplete="name" required></label>
+          <label>Work email<input name="Email" type="email" autocomplete="email" required></label>
+        </div>
+        <div class="row">
+          <label>Company<input name="Company" autocomplete="organization"></label>
+          <label>Your role<input name="Role" autocomplete="organization-title"></label>
+        </div>
+        <div>
+          <span style="display:block;font-family:var(--head);font-weight:700;font-size:.95rem;margin-bottom:10px">What are you interested in?</span>
+          <div class="opts">
+            <input type="radio" name="Interest" id="o1" value="Strategy sprint"><label for="o1">Strategy sprint</label>
+            <input type="radio" name="Interest" id="o2" value="Sales and marketing alignment"><label for="o2">Sales and marketing alignment</label>
+            <input type="radio" name="Interest" id="o3" value="Fractional CMO"><label for="o3">Fractional CMO</label>
+            <input type="radio" name="Interest" id="o4" value="Exit readiness"><label for="o4">Exit readiness</label>
+            <input type="radio" name="Interest" id="o5" value="Not sure yet"><label for="o5">Not sure yet</label>
+          </div>
+        </div>
+        <label>What's the decision in front of you?<textarea name="Message" placeholder="A few lines is plenty."></textarea></label>
+        <div><button class="btn" type="submit">Send <span class="arr">&rarr;</span></button></div>
+      </form>
+      <div class="sent"><h3>Thanks! Your email app should open with your note.</h3><p class="muted" style="margin:10px 0 0">If it didn't, write to <a data-email></a> directly.</p></div>
+    </div>
+    <div class="rv rv-r">
+      <div class="card" style="background:var(--mist);border:0;padding:36px">
+        <h3>What happens next</h3>
+        <ol class="steps" style="grid-template-columns:1fr;gap:28px;margin-top:28px">
+          <li style="padding:0 0 0 76px;min-height:60px"><h3 style="font-size:1.15rem">A personal reply</h3><p>Usually within one business day.</p></li>
+          <li style="padding:0 0 0 76px;min-height:60px"><h3 style="font-size:1.15rem">A 30-minute call</h3><p>Where you are, what's at stake and whether it's a fit.</p></li>
+          <li style="padding:0 0 0 76px;min-height:60px"><h3 style="font-size:1.15rem">A scoped proposal</h3><p>Fixed scope and price within two business days.</p></li>
+        </ol>
+        <p style="margin:30px 0 0;font-size:1rem" class="muted">Prefer email? <a data-email style="color:var(--teal);font-weight:700"></a></p>
+        <p style="margin:6px 0 0;font-size:1rem" class="muted">Based in the Raleigh-Durham area, working with teams across the US.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer id="site-foot"></footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
